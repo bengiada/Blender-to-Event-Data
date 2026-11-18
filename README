@@ -1,0 +1,2 @@
+blender -b --python generate_blender_video.py -- \
+  --frames 10  --fps 1000 --rotations 2.0   --object MONKEY --output ../dataset/monkey3 --object-rotation 0.0 0.2 3.0 --object-color 1 7.0 0.6 1.0 --object-metallic 1.0 --object-roughness 0.9
